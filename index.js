@@ -7,7 +7,7 @@
 var path = require("path");
 var program = require('commander');
 
-var ExportCommand = require(path.resolve(path.join('commands', 'export')));
+var ExportCommand = require('../commands/export.js');
 var pkg = require( path.join(__dirname, 'package.json') );
 
 program
