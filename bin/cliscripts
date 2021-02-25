@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
+require('../commands/export.js')
 require('../index.js')
