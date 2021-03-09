@@ -137,7 +137,7 @@ ExportCommand.prototype.startPackage=function() {
 
 ExportCommand.prototype.endPackage=function() {
     fse.appendFileSync(this.packageFilePath,
-         '  <version>46.0</version>\n' +
+         '  <version>51.0</version>\n' +
          '</Package>\n');
 }
 
